@@ -1,0 +1,48 @@
+{
+  "graphs": [
+    {
+      "title": "Sales Over Time",
+      "type": "Linear",
+      "colorScheme": ["#FF5733", "#33FF57", "#3357FF"],
+      "metrics": ["sales"],
+      "position": {
+        "order": 1,
+        "width": 6,
+        "height": 4
+      }
+    },
+    {
+      "title": "User Engagement",
+      "type": "Bar",
+      "colorScheme": ["#FF33A1", "#33FFA1"],
+      "metrics": ["engagement"],
+      "position": {
+        "order": 2,
+        "width": 6,
+        "height": 4
+      }
+    },
+    {
+      "title": "Website Traffic",
+      "type": "Area",
+      "colorScheme": ["#337AFF", "#33FFA1"],
+      "metrics": ["visitors"],
+      "position": {
+        "order": 3,
+        "width": 6,
+        "height": 4
+      }
+    },
+    {
+      "title": "Conversion Rate",
+      "type": "Linear",
+      "colorScheme": ["#FFA733", "#FF33A1"],
+      "metrics": ["conversionRate"],
+      "position": {
+        "order": 4,
+        "width": 6,
+        "height": 4
+      }
+    }
+  ]
+}
